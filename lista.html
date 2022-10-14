@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/listaStyles.css">
+    <title>Lista | Projeto Bootstrap</title>
+</head>
+<body>
+    <nav class="navegacao">
+        <h1 class="navegacao--titulo">Lista de Tarefas</h1>
+        <ul class="navegacao--lista">
+            <li class="nav--lista--itens"><a>Inicio</a></li>
+            <li class="nav--lista--itens"><a>Lista</a></li>
+        </ul>
+    </nav>
+    <main class="container container--principal">
+        <form action="">
+            <div class="alert-success formulario--alerta" role="alert">
+                <p class="alerta--texto"><strong>Sucesso!</strong> Item adicionado.</p>
+            </div>
+            <div class="input-group formulario--inserir">
+                <input type="text" class="form-control formulario--texto" placeholder="Digite o nome do item" aria-label="Recipient's username" aria-describedby="botao--adicionar">
+                <div class="input-group-append">
+                  <button class="btn btn-outline botao--adiciona" type="button" id="botao--adicionar">Adicionar</button>
+                </div>
+            </div>
+            <ul class="formulario--lista">
+                <li class="formulario--itens">
+                    <div class="divisao--checkbox">
+                        <input class="formulario--checkbox" type="checkbox">
+                        <span class="formulario--checkbox--texto">Tomar Banho</span>
+                    </div>
+                    <div >
+                        <button class="formulario--botao--deletar">Deletar</button>
+                        <button class="formulario--botao--editar">Editar</button>
+                    </div>
+                </li>
+                <li class="formulario--itens">
+                    <div class="divisao--checkbox">
+                        <input class="formulario--checkbox" type="checkbox">
+                        <span class="formulario--checkbox--texto">Tomar Remedio</span>
+                    </div>
+                    <div >
+                        <button class="formulario--botao--deletar">Deletar</button>
+                        <button class="formulario--botao--editar">Editar</button>
+                    </div>
+                </li>
+                <li class="formulario--itens">
+                    <div class="divisao--checkbox">
+                        <input class="formulario--checkbox" type="checkbox">
+                        <span class="formulario--checkbox--texto">Trabalhar</span>
+                    </div>
+                    <div >
+                        <button class="formulario--botao--deletar">Deletar</button>
+                        <button class="formulario--botao--editar">Editar</button>
+                    </div>
+                </li>
+                <li class="formulario--itens">
+                    <div class="divisao--checkbox">
+                        <input class="formulario--checkbox" type="checkbox">
+                        <span class="formulario--checkbox--texto">Estudar</span>
+                    </div>
+                    <div >
+                        <button class="formulario--botao--deletar">Deletar</button>
+                        <button class="formulario--botao--editar">Editar</button>
+                    </div>
+                </li>
+                <li class="formulario--itens">
+                    <div class="divisao--checkbox">
+                        <input class="formulario--checkbox" type="checkbox">
+                        <span class="formulario--checkbox--texto">Dormir</span>
+                    </div>
+                    <div >
+                        <button class="formulario--botao--deletar">Deletar</button>
+                        <button class="formulario--botao--editar">Editar</button>
+                    </div>
+                </li>
+            </ul>
+        </form>
+
+    </main>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</body>
+
+</html>
